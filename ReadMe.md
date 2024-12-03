@@ -72,10 +72,13 @@ The project uses the **Spring Boot** framework with the following components:
    docker run -d -p 8080:8080 mykare-task-application
 
 ## Steps to Load From Docker
-1. Load the Docker image.
+1. Download docker from Google Drive
+   ```bash
+   https://drive.google.com/drive/folders/1Ubw16dxPRaLknuXLVro1VtsaQfqQdJLP?usp=drive_link
+2. Load the Docker image.
     ```bash
    docker load -i mykare-task-application.tar .
-2. Run the container with the following command:
+3. Run the container with the following command:
    ```bash
    docker run -d -p 8080:8080 mykare-task-application
 
